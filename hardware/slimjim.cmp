@@ -1,0 +1,52 @@
+Cmp-Mod V01 Created by Cvpcb (2014-12-04 BZR 5312)-product   date = 4/1/2016 11:20:45 PM
+
+BeginCmp
+TimeStamp = /56F36E63;
+Reference = J1;
+ValeurCmp = USB;
+IdModule  = Connect:USB_A;
+EndCmp
+
+BeginCmp
+TimeStamp = /56F37D62;
+Reference = P1;
+ValeurCmp = CONN_01X12;
+IdModule  = _CrumpPrints:Header_1x12_100;
+EndCmp
+
+BeginCmp
+TimeStamp = /56F37C15;
+Reference = P2;
+ValeurCmp = CONN_01X12;
+IdModule  = _CrumpPrints:Header_1x12_100;
+EndCmp
+
+BeginCmp
+TimeStamp = /56F3912B;
+Reference = R1;
+ValeurCmp = R;
+IdModule  = Resistors_SMD:R_0805_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = /56F38A2A;
+Reference = SW1;
+ValeurCmp = SW_PUSH;
+IdModule  = _CrumpPrints:6x6mm_pushbutton;
+EndCmp
+
+BeginCmp
+TimeStamp = /56FE09B4;
+Reference = U1;
+ValeurCmp = RF200;
+IdModule  = _CrumpPrints:RF200;
+EndCmp
+
+BeginCmp
+TimeStamp = /56FE1E98;
+Reference = U2;
+ValeurCmp = TC200;
+IdModule  = _CrumpPrints:TC200;
+EndCmp
+
+EndListe
