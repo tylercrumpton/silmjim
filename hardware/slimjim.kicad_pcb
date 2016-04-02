@@ -3,9 +3,9 @@
   (general
     (links 61)
     (no_connects 61)
-    (area 0 0 0 0)
+    (area 170.129999 78.689999 215.950001 118.160001)
     (thickness 1.6)
-    (drawings 0)
+    (drawings 4)
     (tracks 0)
     (zones 0)
     (modules 7)
@@ -148,7 +148,7 @@
   )
 
   (module Connect:USB_A (layer F.Cu) (tedit 5543E289) (tstamp 56FF48D3)
-    (at 216.916 86.868 180)
+    (at 196.85 113.03 180)
     (descr "USB A connector")
     (tags "USB USB_A")
     (path /56F36E63)
@@ -186,7 +186,7 @@
   )
 
   (module _CrumpPrints:Header_1x12_100 (layer F.Cu) (tedit 56FF4293) (tstamp 56FF48E3)
-    (at 214.122 118.11 90)
+    (at 213.36 115.57 90)
     (path /56F37D62)
     (fp_text reference P1 (at 15.24 -2.54 90) (layer F.SilkS)
       (effects (font (size 1.5 1.5) (thickness 0.15)))
@@ -221,7 +221,7 @@
   )
 
   (module _CrumpPrints:Header_1x12_100 (layer F.Cu) (tedit 56FF4293) (tstamp 56FF49C5)
-    (at 173.228 116.586 90)
+    (at 172.72 115.57 90)
     (path /56F37C15)
     (fp_text reference P2 (at 15.24 -2.54 90) (layer F.SilkS)
       (effects (font (size 1.5 1.5) (thickness 0.15)))
@@ -304,7 +304,7 @@
   )
 
   (module _CrumpPrints:RF200 (layer F.Cu) (tedit 56FDF82C) (tstamp 56FF491D)
-    (at 193.04 102.108 180)
+    (at 193.04 101.6 180)
     (path /56FE09B4)
     (fp_text reference U1 (at -0.000001 -23 180) (layer F.SilkS)
       (effects (font (size 1.5 1.5) (thickness 0.15)))
@@ -375,7 +375,7 @@
   )
 
   (module _CrumpPrints:TC200 (layer F.Cu) (tedit 56FDDFCE) (tstamp 56FF4939)
-    (at 193.294 97.79)
+    (at 193.04 97.79)
     (path /56FE1E98)
     (fp_text reference U2 (at 0.05625 -20) (layer F.SilkS)
       (effects (font (size 1.5 1.5) (thickness 0.15)))
@@ -443,5 +443,10 @@
     (pad 24 thru_hole circle (at 9.91185 -7) (size 0.9652 0.9652) (drill 0.7112) (layers *.Cu *.Mask)
       (net 13 RF_12))
   )
+
+  (gr_line (start 215.9 78.74) (end 215.9 118.11) (angle 90) (layer Edge.Cuts) (width 0.1))
+  (gr_line (start 170.18 78.74) (end 215.9 78.74) (angle 90) (layer Edge.Cuts) (width 0.1))
+  (gr_line (start 170.18 118.11) (end 170.18 78.74) (angle 90) (layer Edge.Cuts) (width 0.1))
+  (gr_line (start 215.9 118.11) (end 170.18 118.11) (angle 90) (layer Edge.Cuts) (width 0.1))
 
 )
