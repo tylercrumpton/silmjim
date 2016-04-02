@@ -230,7 +230,7 @@ Wire Wire Line
 Wire Wire Line
 	6550 1900 6550 1800
 Wire Wire Line
-	4550 1900 7750 1900
+	4550 1900 7700 1900
 Connection ~ 5800 1800
 Wire Wire Line
 	4550 1900 4550 3250
@@ -294,7 +294,7 @@ Connection ~ 4400 4150
 Connection ~ 4400 4250
 Connection ~ 4400 4350
 Wire Wire Line
-	7750 1900 7750 3250
+	7700 1900 7700 3250
 Connection ~ 6550 1900
 Connection ~ 7750 3350
 Connection ~ 7750 3450
@@ -725,4 +725,6 @@ Wire Wire Line
 	6900 5350 6950 5350
 Wire Wire Line
 	6950 5250 6900 5250
+Wire Wire Line
+	7700 3250 7750 3250
 $EndSCHEMATC
