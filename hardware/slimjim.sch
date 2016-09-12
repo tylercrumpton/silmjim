@@ -11,7 +11,6 @@ LIBS:cmos4000
 LIBS:adc-dac
 LIBS:memory
 LIBS:xilinx
-LIBS:special
 LIBS:microcontrollers
 LIBS:dsp
 LIBS:microchip
@@ -727,4 +726,8 @@ Wire Wire Line
 	6950 5250 6900 5250
 Wire Wire Line
 	7700 3250 7750 3250
+Wire Wire Line
+	7450 2950 7450 2850
+Wire Wire Line
+	7450 3350 7450 3250
 $EndSCHEMATC
