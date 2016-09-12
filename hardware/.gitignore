@@ -4,3 +4,4 @@
 *.net
 *.kicad_pcb-bak
 $*
+*.rpt
