@@ -1,8 +1,8 @@
 # slimjim
 
-**slimjim** is a multi-purpose adapter board for RF-Engine form-factor Synapse Wireless SNAP mpdules like the RF100 and RF200.
-It also supports both versions of a custom board I've dubbed the TC200. All pins are broken out to a set of standard 0.1" (2.54 mm) headers
-for jumper cables, breadboarding, or soldering.
+**slimjim** is a multi-purpose adapter board for RF-Engine form-factor Synapse Wireless SNAP modules like the RF100 and RF200.
+It also supports both versions of a custom board I've dubbed the TC200. All pins are broken out to a set of standard 0.1" 
+(2.54 mm) headers for jumper cables, breadboarding, or soldering.
 
 ![1ag4zy](https://cloud.githubusercontent.com/assets/1317406/18426278/0118a820-7886-11e6-8636-da7227afe429.gif)
 
